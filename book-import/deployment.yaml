@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   labels:
     name: book-import
-    test: testlabel
   name: book-import
 spec:
   replicas: 2
